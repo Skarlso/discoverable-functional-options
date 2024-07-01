@@ -1,6 +1,6 @@
 package main
 
-import "options-pattern/pkg"
+import "github.com/Skarlso/discoverable-functional-options/pkg"
 
 func main() {
 	serverOpts := pkg.ServerOpts{}
