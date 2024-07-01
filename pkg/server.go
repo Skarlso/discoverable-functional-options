@@ -34,6 +34,7 @@ func (ServerOpts) WithPort(port int) ServerOptFn {
 }
 
 // ServerOptFn defines the function type to configure a server.
+// For available options, please check `ServerOpts` options flag.
 type ServerOptFn func(*Server)
 
 // NewServer creates a new configured server.
